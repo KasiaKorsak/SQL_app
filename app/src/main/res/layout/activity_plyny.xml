@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.katarzynaa.p2.PlynyActivity">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="347dp"
+            android:layout_height="258dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+            <ImageButton
+                android:id="@+id/ibtn100"
+                android:layout_width="85dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/btn1"
+                android:onClick="onClick1"
+                android:src="@drawable/o100" />
+
+            <ImageButton
+                android:id="@+id/ibtn150"
+                android:layout_width="85dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/btn2"
+                android:onClick="onClick2"
+                android:src="@drawable/n150" />
+
+            <ImageButton
+                android:id="@+id/ibtn300"
+                android:layout_width="85dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/btn3"
+                android:onClick="onClick3"
+                android:src="@drawable/n300" />
+
+            <ImageButton
+                android:id="@+id/ibtn400"
+                android:layout_width="85dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/btn4"
+                android:onClick="onClick4"
+                android:src="@drawable/o400" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="347dp"
+            android:layout_height="258dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageButton
+                android:id="@+id/ibtn500"
+                android:layout_width="85dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/btn5"
+                android:onClick="onClick5"
+                android:src="@drawable/o500" />
+
+            <ImageButton
+                android:id="@+id/ibtn600"
+                android:layout_width="85dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/btn6"
+                android:onClick="onClick6"
+                android:src="@drawable/o600" />
+
+            <ImageButton
+                android:id="@+id/ibtn700"
+                android:layout_width="85dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/btn7"
+                android:onClick="onClick7"
+                android:src="@drawable/o700" />
+
+            <ImageButton
+                android:id="@+id/ibtn800"
+                android:layout_width="85dp"
+                android:layout_height="120dp"
+                android:contentDescription="@string/btn8"
+                android:onClick="onClick8"
+                android:src="@drawable/o800" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/tvlabel"
+        android:layout_width="142dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="328dp"
+        android:text="@string/labelVolume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tableLayout" />
+
+    <TextView
+        android:id="@+id/tvVolume"
+        android:layout_width="69dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="388dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnwyczysc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/btnwyczysc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:onClick="onClickCzysc"
+        android:text="WYCZYŚĆ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvVolume" />
+
+</android.support.constraint.ConstraintLayout>

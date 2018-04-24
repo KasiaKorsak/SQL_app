@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HealthyApp</string>
+    <string name="label">Możliwe choroby: </string>
+    <string name="btnChoroby">Choroby</string>
+    <string name="btnDieta">Dieta</string>
+    <string name="btnPlyny">Ilość płynów</string>
+    <string name="btn1">100ml</string>
+    <string name="btn2">150ml</string>
+    <string name="btn3">300ml</string>
+    <string name="btn4">400ml</string>
+    <string name="btn5">500ml</string>
+    <string name="btn6">600ml</string>
+    <string name="btn7">700ml</string>
+    <string name="btn8">800ml</string>
+    <string name="labelVolume">Wypiłeś dziś: </string>
+    <string name="odchudzanie">DIETA ODCHUDZAJĄCA</string>
+    <string name="silowy">DIETA TRENINGOWA</string>
+    <string name="wegetarianska">DIETA WEGETARIAŃSKA</string>
+    <string name="label2">Po więcej przepisów odwiedź stronę: </string>
+    <string name="strona2">www.potreningu.pl</string>
+    <string name="strona1">www.poradnikzdrowie.pl</string>
+    <string name="strona3">www.dieta.pl</string>
+</resources>
